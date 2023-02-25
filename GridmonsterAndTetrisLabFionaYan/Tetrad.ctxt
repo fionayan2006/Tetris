@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Tetrad
+comment0.text=\n\ The\ tetrad\ class\ creates\ and\ manipulates\ tetrads\ by\ adding,\ removing,\ and\ \n\ translate\ them\ on\ a\ grid.\ A\ tetrad\ is\ made\ up\ of\ four\ blocks\ arranged\ to\n\ form\ various\ shapes.\n\n\ @author\ Fiona\ Yan\n\ @version\ 1/22/2022\n
+comment1.params=gridOfTetrads
+comment1.target=Tetrad(MyBoundedGrid)
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Tetrad\n\ \n\ @param\ gridOfTetrads\ the\ grid\ the\ Tetrad\ is\ on.\n
+comment2.params=grid\ locs
+comment2.target=void\ addToLocations(MyBoundedGrid,\ Location[])
+comment2.text=\n\ Adds\ a\ tetrad\ to\ the\ given\ location\n\n\ @param\ \ grid\ \ the\ grid\ to\ which\ the\ tetrad\ is\ added.\n\ @param\ \ locs\ \ the\ array\ of\ Locations\ of\ the\ locations\ of\ each\ of\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ blocks\ that\ make\ up\ the\ tetrad.\n
+comment3.params=
+comment3.target=Location[]\ removeBlocks()
+comment3.text=\n\ removes\ the\ tetrad\ by\ removing\ all\ of\ the\ blocks\ that\ it's\ made\ up\ of.\n\ \n\ @return\ \ the\ array\ of\ the\ locations\ of\ all\ the\ blocks\ that\ were\ removed.\n
+comment4.params=grid\ locs
+comment4.target=boolean\ areEmpty(MyBoundedGrid,\ Location[])
+comment4.text=\n\ Tests\ if\ each\ of\ the\ locations\ of\ the\ blocks\ of\ the\ tetrad\ is\ valid\n\ and\ empty.\n\ \n\ @param\ grid\ \ The\ grid\ on\ which\ the\ locations\ of\ the\ blocks\ will\ be\ tested.\n\ @param\ locs\ \ The\ locations\ of\ the\ blocks\ to\ be\ removed.\n\ \n\ @return\ true\ if\ the\ locations\ are\ both\ valid\ and\ empty;\ otherwise,\n\ \ \ \ \ \ \ \ \ false\n
+comment5.params=deltaRow\ deltaCol
+comment5.target=boolean\ translate(int,\ int)
+comment5.text=\n\ translates\ the\ tetrad\ by\ a\ specified\ number\ of\ rows\ and\ columns.\n\ \n\ @param\ deltaRow\ \ \ the\ number\ of\ rows\ to\ translate\ the\ tetrad.\n\ @param\ deltaCol\ \ \ the\ number\ of\ columns\ to\ translate\ the\ tetrad.\n\ \n\ @return\ \ true\ if\ the\ tetrad\ was\ translated;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false.\n
+comment6.params=
+comment6.target=boolean\ rotate()
+comment6.text=\n\ Rotates\ the\ tetrad,\ using\ the\ mid\ block\ as\ the\ center.\n\ \n\ @return\ \ true\ if\ the\ block\ was\ rotated;\ otherwise,\n\ \ \ \ \ \ \ \ \ \ false\n
+numComments=7
